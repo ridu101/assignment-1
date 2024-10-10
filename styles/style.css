@@ -5,6 +5,21 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+/* color section */
+header p {
+    color: rgba(13, 19, 33, 0.7);
+}
+
+main p {
+    color: rgba(13, 19, 33, 0.7)
+}
+footer p{
+    color: rgba(13, 19, 33, 0.7);
+}
+.why-section-container h1{
+    color: rgba(13, 19, 33, 0.7) ;
+}
+
 /* header section*/
 .header-container {
     background-image: url('../assets/Hero-bg.png');
@@ -16,33 +31,36 @@ body {
     display: block;
     padding-top: 150px;
 }
+
 /* Button styles */
-header button{
+header button {
     width: 220px;
     height: 70px;
     background-color: rgb(13, 19, 33);
 }
-.scroll{
+
+.scroll {
     text-decoration: none;
     color: white;
     font-size: 20px;
-   
+
 
 }
 
-main button{
+main button {
     width: 170px;
     height: 50px;
     border-radius: 8px;
     background-color: rgb(226, 220, 220);
     color: rgba(63, 59, 59, 0.911);
 }
-footer button{
+
+footer button {
     width: 120px;
     height: 40px;
     border-radius: 8px;
-    background: rgb(13, 19, 33);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 
@@ -50,7 +68,7 @@ footer button{
 .why-section-container {
     display: block;
     width: 1440px;
-    height: 1393px;
+    height: 1600px;
     background-color: rgba(13, 19, 33, 0.02);
     margin-top: 150px;
     margin-left: 210px;
@@ -75,6 +93,8 @@ footer button{
     padding-right: 100px;
     gap: 50px;
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin: 80px;
 
 
 }
@@ -86,6 +106,8 @@ footer button{
     padding-right: 100px;
     gap: 30px;
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin: 80px;
 
 }
 
@@ -96,12 +118,15 @@ footer button{
     padding-right: 100px;
     gap: 50px;
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin: 80px;
 
 
 }
+
 /* My inspiration starts here */
-.my-inspiretion-section{
-    margin-top: 100px;
+.my-inspiretion-section {
+    margin-top: 200px;
     display: block;
     justify-content: center;
     align-items: center;
@@ -109,14 +134,16 @@ footer button{
     justify-items: center;
     padding-left: 200px;
     padding-right: 200px;
-    
+
 }
-.my-inspiretion-texts{
+
+.my-inspiretion-texts {
     padding-right: 200px;
     padding-left: 200px;
 }
+
 /* my current target starts here */
-.my-current-sction-container{
+.my-current-sction-container {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -125,11 +152,13 @@ footer button{
     height: 700px;
     width: 1340px;
 }
-.my-current-section-texts{
+
+.my-current-section-texts {
     padding-left: 400px;
-    
+
 }
-.my-current-section-cards{
+
+.my-current-section-cards {
     margin-top: 100px;
     display: flex;
     text-align: left;
@@ -138,69 +167,78 @@ footer button{
     align-items: center;
     padding-left: 500px;
 }
-.card-1{
+
+.card-1 {
     background-color: rgba(255, 76, 30, 0.05);
-    width: 400;
-    height: 360;
+    width: 400px;
+    height: 230px;
     padding: 20px;
 }
-.card-2{
+
+.card-2 {
     background-color: rgba(0, 76, 232, 0.05);
-    width: 400;
-    height: 360;
+    width: 400px;
+    height: 230px;
     padding: 20px;
 }
-.card-3{
+
+.card-3 {
     background-color: rgba(255, 223, 0, 0.05);
-    width: 400;
-    height: 360;
+    width: 400px;
+    height: 230px;
     padding: 20px;
 }
+
 /* my next target Section */
-.my-next-target-section{
+.my-next-target-section {
     display: block;
     margin-left: 150px;
     margin-right: 150px;
-    
+
+
 }
 
-.next-texts{
+.next-texts {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
-.next-cards-parent{
+
+.next-cards-parent {
     margin-bottom: 100px;
     margin-top: 80px;
 }
-.react{
+
+.react {
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 2px solid black;
+    border: 2px solid gray;
     border-radius: 20px;
     justify-content: space-around;
     margin-bottom: 50px;
     gap: 50px;
     padding: 20px;
 }
-.nodeJs{
+
+.nodeJs {
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 2px solid black;
+    border: 2px solid gray;
     border-radius: 20px;
     justify-content: space-around;
     margin-bottom: 50px;
     gap: 50px;
     padding: 20px;
 }
-.mongoDb{
+
+.mongoDb {
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 2px solid black;
+    border: 2px solid gray;
     border-radius: 20px;
     justify-content: space-around;
     margin-bottom: 50px;
@@ -211,27 +249,29 @@ footer button{
 
 
 /* Footer section */
-.foonter-content{
+.support-content {
     background-image: url('../assets/handshake.jpg');
+    
     width: 1340px;
-    height: 313px;
+    height: 400px;
     display: block;
-    padding-top: 100px;
-   
+    padding-top: 200px;
+
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-left: 280px;
 }
 
-.input-area{
+.input-area {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 30px;
+    gap: 20px;
 }
-.last-links-sections{
+
+.last-links-sections {
     width: 1840px;
     height: 70px;
     display: flex;
@@ -239,14 +279,16 @@ footer button{
     margin-top: 100px;
     justify-content: space-between;
     background-color: rgba(13, 19, 33, 0.03);
-   
-    
+
+
 
 }
-.place{
+
+.place {
     border-radius: 10px;
-    
+
 }
-.last-icons-container{
+
+.last-icons-container {
     padding-right: 150px;
 }
