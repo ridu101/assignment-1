@@ -18,13 +18,14 @@ body {
 }
 /* Button styles */
 header button{
-    width: 200px;
-    height: 60px;
+    width: 220px;
+    height: 70px;
     background-color: rgb(13, 19, 33);
 }
 .scroll{
     text-decoration: none;
     color: white;
+    font-size: 20px;
    
 
 }
@@ -155,7 +156,57 @@ footer button{
     height: 360;
     padding: 20px;
 }
+/* my next target Section */
+.my-next-target-section{
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
 
+.next-texts{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.next-cards-parent{
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+.react{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 50px;
+    padding: 20px;
+}
+.nodeJs{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 50px;
+    padding: 20px;
+}
+.mongoDb{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 50px;
+    padding: 20px;
+}
 
 
 
