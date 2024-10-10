@@ -16,7 +16,7 @@ body {
     display: block;
     padding-top: 150px;
 }
-
+/* Button styles */
 header button {
     width: 240px;
     height: 65px;
@@ -24,6 +24,21 @@ header button {
     background: rgb(13, 19, 33);
     color: white;
 }
+main button{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+}
+footer button{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+}
+
 
 /* Why section starts here */
 .why-section-container {
@@ -140,3 +155,42 @@ header button {
 
 
 /* Footer section */
+.foonter-content{
+    background-image: url('../assets/handshake.jpg');
+    width: 1340px;
+    height: 313px;
+    display: block;
+    padding-top: 100px;
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 280px;
+}
+
+.input-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.last-links-sections{
+    width: 1840px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 0.03);
+   
+    
+
+}
+.place{
+    border-radius: 10px;
+    
+}
+.last-icons-container{
+    padding-right: 150px;
+}
